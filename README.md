@@ -1,4 +1,1 @@
-parisk.github.io
-================
-
-My personal GitHub page
+http://www.pkasid.com
