@@ -21,6 +21,6 @@ I am really happy that we did this at that particular time, because we did evert
 
 > Thanasis, me and Marios chilling at the motel, after a (most probably) exhausting day
 
-**Epilogue**: Now, exactly 3 years later, three of us are pursuing SourceLair as a funded startup company in Athens, while the other two of us are pursuing really ambitious Phd. carreers. I am really happy that all five of us grew up together, became better persons and are still close friends, talk about those memories and have share time together.
+**Epilogue**: Now, exactly 3 years later, three of us are pursuing SourceLair as a funded startup company in Athens, while the other two of us are pursuing really ambitious Phds and academic carreers. I am really happy that all five of us grew up together, became better persons and are still close friends, talk about those memories and have share time together.
 
 **P.S.** I always wanted to (re)start blogging and was just procrastinating on it. This post really motivated me to do so. Thanks Antonis Kalipetis.
