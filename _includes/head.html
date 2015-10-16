@@ -3,6 +3,39 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
+<!-- Schema.org markup for Google+ -->
+<meta itemprop="name" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+<meta itemprop="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+
+{% if page.image %}
+<meta itemprop="image" content="{{ page.image }}">
+{% endif %}
+
+<!-- Twitter Card data -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@pariskasid">
+<meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+<meta name="twitter:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+
+{% if page.image %}
+<!-- Twitter summary card with large image must be at least 280x150px -->
+<meta name="twitter:image:src" content="{{ page.image }}">
+{% endif %}
+
+
+<!-- Open Graph data -->
+<meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="{% if page.url %}{{ page.url }}{% else %}{{ site.url }}{% endif %}" />
+
+{% if page.image %}
+<meta property="og:image" content="{{ page.image }}" />
+{% endif %}
+<meta property="og:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}" />
+<meta property="og:site_name" content="paris.kasidiaris" />
+<meta property="article:published_time" content="2015-10-06T18:59:30.333000" />
+<meta property="article:modified_time" content="2015-10-06T18:59:30.333000" />
+
   <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 
