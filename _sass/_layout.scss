@@ -2,7 +2,7 @@
  * Site header
  */
 .site-header {
-    border-top: 5px solid $grey-color-dark;
+    border-top: 5px solid $brand-color;
     border-bottom: 1px solid $grey-color-light;
     min-height: 56px;
 
@@ -181,6 +181,7 @@
 .post-meta {
     font-size: $small-font-size;
     color: $grey-color;
+    float: right;
 }
 
 .post-link {
@@ -195,6 +196,8 @@
  */
 .post-header {
     margin-bottom: $spacing-unit;
+    margin-top: $spacing-unit;
+    overflow: auto;
 }
 
 .post-title {
@@ -205,6 +208,10 @@
     @include media-query($on-laptop) {
         font-size: 36px;
     }
+}
+
+.post h1.post-title {
+    float: left;
 }
 
 .post-content {
@@ -233,4 +240,12 @@
             font-size: 18px;
         }
     }
+}
+
+.my-face {
+    float: left;
+    height: 48px;
+    border-radius: 512px;
+    margin-top: 4px;
+    margin-right: 8px;
 }
