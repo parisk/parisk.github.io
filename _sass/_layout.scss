@@ -184,6 +184,12 @@
     float: right;
 }
 
+@include media-query($on-palm) {
+    .post-meta {
+        float: none;
+    }
+}
+
 .post-link {
     display: block;
     font-size: 24px;
@@ -212,6 +218,12 @@
 
 .post h1.post-title {
     float: left;
+}
+
+@include media-query($on-palm) {
+    .post h1.post-title {
+        float: none;
+    }
 }
 
 .post-content {
