@@ -8,3 +8,11 @@ twitter_username: pariskasid
 github_username:  parisk
 
 markdown: kramdown
+
+collections:
+  archive:
+    permalink: /archive/:path/
+    output: true
+
+gems:
+  - jekyll-redirect-from
