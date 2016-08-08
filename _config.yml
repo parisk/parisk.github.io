@@ -6,6 +6,7 @@ baseurl: ""
 url: "http://www.pkasid.com"
 twitter_username: pariskasid
 github_username:  parisk
+future: true
 
 markdown: kramdown
 
