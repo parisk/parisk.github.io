@@ -18,8 +18,33 @@ layout: default
     {% endfor %}
   </ul>
 
+  <h1 class="page-heading"><i class="fa fa-medium" aria-hidden="true"></i> Posts on Medium</h1>
+
+  <ul class="post-list">
+    {% for post in site.m %}
+    <li>
+      <span class="post-meta">{{ post.date | date: "%B %-d, %Y" }}</span>
+
+      <h2>
+        <a class="post-link" href="{{ post.medium_url }}" target="_blank">
+            <i class="fa fa-external-link" aria-hidden="true"></i>
+            {{ post.title }}
+        </a>
+      </h2>
+    </li>
+    {% endfor %}
+  </ul>
+
   <h1 class="page-heading">Open Source Projects and Contributions</h1>
   <ul class="open-source-links">
+    <li>
+      <a href="https://github.com/sourcelair/xterm.js">xterm.js</a>
+      - Full xterm terminal, in your browser
+    </li>
+    <li>
+      <a href="https://github.com/sourcelair/castor">Castor</a>
+      - Translate Docker events to WebHooks
+    </li>
     <li>
       <a href="https://github.com/parisk/helot">Helot</a>
       - Send personal emails to lots of people elegantly

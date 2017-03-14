@@ -14,6 +14,9 @@ collections:
   archive:
     permalink: /archive/:path/
     output: true
+  m:
+    permalink: /m/:path/
+    output: true
 
 gems:
   - jekyll-redirect-from
