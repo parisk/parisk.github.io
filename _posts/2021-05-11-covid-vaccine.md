@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Οι σκέψεις μου για το εμβόλιο
+title: Οι σκέψεις μου για το βαξίνι
 permalink: /articles/el/covid-vaccine
 ---
 
